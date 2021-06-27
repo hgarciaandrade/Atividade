@@ -1,0 +1,72 @@
+.row {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+* {
+    font-family: Roboto, Verdana, Helvetica, sans-serif;
+}
+div p {
+    font-size: 18px;
+}
+header div {
+    font-size: 36px;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid rgba(25, 148, 14, 0.7);
+    background-color: rgba(25, 148, 14, 0.7);
+}
+footer div {
+    font-size: 12px;
+    text-align: center;
+    padding: 6px;
+    border: 1px solid rgba(172, 240, 166, 0.7);
+    background-color: rgba(172, 240, 166, 0.7);
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+    width: 100%;
+    border-radius: 5px;
+}
+main {
+    background-color: white;
+}
+h6 {
+    color: rgba(0, 0, 0, 0.25);
+}
+form {
+    margin: 10px;
+    margin-top: 20px;
+}
+form label {
+    display: block;
+    margin: 5px;
+}
+form input[type="text"], input[type="email"], input[type="password"] {
+    padding: 5px;
+    margin: 2px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.button {
+    padding: 12px 28px;
+    margin: 2px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    background-color: rgba(25, 148, 14, 1);
+}
+a:hover
+{
+    color: white;
+    background-color: rgba(25, 148, 14, 0.8);
+}
+@media screen and (max-width: 360px) {
+    main {
+        background-color: rgba(172, 240, 166, 0.7);
+    }
+}
